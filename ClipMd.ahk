@@ -18,7 +18,7 @@ isPushWhenSave := false
    clipboard := "![image](" . saveHttpPath . ")" 
    send, ^v
    if  isPushWhenSave
-       send, ^F2
+       send, ^{F2}
 return
 
 ^F2::
