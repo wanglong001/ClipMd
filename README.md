@@ -7,7 +7,9 @@
 1. 截图 使用什么截图工具都可以（我是使用QQ截图）
 ![image](http://wanglong001.github.io/images/20170416_160039.png)
 2. Ctrl + F1 （截好的图片如下，不是同一次截图，会有些出入）
+
 ![image](http://wanglong001.github.io/images/20170416_160308.png)
+
 3. Ctrl + F2 统一提交（发布）图片
 4. 重新打开文件（链接可以找到文件了）
 ![image](http://wanglong001.github.io/images/20170416_160524.png)
