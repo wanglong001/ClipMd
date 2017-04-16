@@ -9,7 +9,7 @@ isPushWhenSave := false
 
 
 
-^{F1}::
+^F1::
     ; 保存图片的位置和格式
     FormatTime, currentFilenameFormat, A_Now, %filenameFormat%
     savePath := PicPath . currentFilenameFormat . "." . imageFormat
@@ -18,10 +18,10 @@ isPushWhenSave := false
    clipboard := "![image](" . saveHttpPath . ")" 
    send, ^v
    if  isPushWhenSave
-       send, ^n
+       send, ^F2
 return
 
-^{F2}::
+^F2::
   run,cmd /c cd /D %hexoPath% & hexo g & hexo d 
 return
 
